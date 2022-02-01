@@ -6,6 +6,10 @@ public class timepass {
             System.out.println("A is greater than " + n);
 
         }
+        int k=352;
+        int nod=5;
+        k=k%nod;
+        System.out.println(k);
         
     }
 
