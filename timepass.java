@@ -6,6 +6,7 @@ public class timepass {
             System.out.println("A is greater than " + n);
 
         }
+        
     }
 
 }
