@@ -9,7 +9,7 @@ public class Primen {
         int low = sc.nextInt();
         System.out.println("Enter the value of high");
         int high = sc.nextInt();
-        System.out.println("The value of low is " + low + "and high value is " + high);
+        System.out.println("The value of low is " + low + " and high value is " + high);
 
         for (int i = low; i <= high; i++) {
             int count = 0;
