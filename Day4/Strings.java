@@ -9,7 +9,7 @@ public class Strings {
         // DECLARE A STRING
         String s1;
         // ASSIGN THE STRING
-        S1="Hello world!";
+        s1="Hello world!";
         System.out.println(s1);
         // 2ND METHOD TO DECLARE AND ASSIGN A STRING 
         String s2="Vanshaj";
@@ -36,7 +36,7 @@ public class Strings {
         // SUBSTRING FUNCTION
         System.out.println(s1.substring(2, 4));
         for (int i = 0; i <= s5.length(); i++) {
-            for (int j = 1; j <s5.length; j++) {
+            for (int j = i+1; j <s5.length(); j++) {
                 System.out.println(s5.substring(i,j));
             }
         }
@@ -44,6 +44,6 @@ public class Strings {
         String s6=s5 + " "+ s1;
         System.out.println(s6);
         // SPLIT FUNCTION OF STRING
-        System.out.println(s6.split(" "););
+        System.out.println(s6.split(" "));
     }
 }
